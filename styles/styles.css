@@ -11,3 +11,6 @@ body {
     max-width: initial;
   }
 }
+.border-bottom {
+  border-bottom: 5px solid #080808 !important;
+}
