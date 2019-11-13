@@ -1,8 +1,13 @@
 html,
 body {
-  background-color: antiquewhite;
+  background-color: #fefefe;
 }
 .navbar {
   width: 100%;
   padding: 2.5rem 1rem 0rem;
+}
+@media (min-width: 1280px) {
+  .container {
+    max-width: initial;
+  }
 }
