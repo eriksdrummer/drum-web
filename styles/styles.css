@@ -6,11 +6,15 @@ body {
   width: 100%;
   padding: 2.5rem 1rem 0rem;
 }
-@media (min-width: 1280px) {
-  .container {
-    max-width: initial;
-  }
+.hero {
+  background-image: url(../img/hero_drumkit.jpg);
+  background-size: cover;
+  background-position: top;
+  height: calc(100vh - 110px);
 }
-.border-bottom {
-  border-bottom: 5px solid #080808 !important;
+.hero-overlay {
+  display: flex;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  align-items: center;
 }
