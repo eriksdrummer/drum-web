@@ -10,12 +10,11 @@
 </head>
 
 <body>
-    <header class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-0 bg-white shadow-sm"
-        style="background-color: rgb(182, 187, 202)!important;">
+    <header class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-0 bg-white shadow-sm header">
         <a class="navbar-brand">
             <img src="img/logo.png" width="150" class="d-inline-block" alt="" />
         </a>
-        <nav class="navbar" style="width: 100%;width: 100%;padding: 2.5rem 1rem 0rem;">
+        <nav class="navbar">
             <nav class="my-2 my-md-0 mr-md-3 font-weight-bold">
                 <a class="p-2 text-dark" href="index.html">Home</a>
                 <a class="p-2 text-dark" href="about.html">About</a>
@@ -24,32 +23,52 @@
                 <a class="p-2 text-dark" href="contact.html">Contact us</a>
             </nav>
             <div class="form-inline">
-                <a class="btn btn-outline-dark text-dark font-weight-bold" href="#">Login</a>
+                <a class="btn btn-outline-dark font-weight-bold" href="login.html">Login</a>
                 <a class="btn btn-link text-dark font-weight-bold" href="#">EN</a>/
                 <a class="btn btn-link text-dark font-weight-bold" href="#">LV</a>
             </div>
         </nav>
     </header>
+    <div class="container">
+        <h4 class="my-4">About the author</h4>
+        <div class="row">
+            <div class="col-md-5">
+                <img src="img/author.jpg" width="100%" />
+            </div>
+            <div class="col-md-7">
+                <h4>Eriks Lizbovskis</h4>
+                <p>Text Text Text Text Text Text Text Text Text Text Text Text Text
+                    Text Text Text Text Text Text Text Text Text Text Text Text Text Text
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-7"></div>
+            <div class="col-md-5">
+                <img src="img/drum lessons.jpg" width="100%" />
+            </div>
+        </div>
+    </div>
 
-    <footer class="pt-4 pt-md-4 border-top bg-dark">
+    <footer class="pt-4 pt-md-4 bg-dark footer">
         <div class="container">
             <div class="row text-white">
-                <div class="col-md-4 px-4">
+                <div class="col-md-4">
                     <h5>About company</h5>
                     <p class="text-muted">Founded in 2019 by latvian drummer Eriks Lizbovskis. Company's main goal
                         is to provide best online drum lessons!
                     </p>
-                    <a href="https://www.facebook.com">
+                    <a href="https://www.facebook.com" class="text-decoration-none">
                         <img src="img/facebook.png" />
                     </a>
-                    <a href="https://www.twitter.com">
+                    <a href="https://www.twitter.com" class="text-decoration-none">
                         <img src="img/twitter.png" />
                     </a>
-                    <a href="https://www.youtube.com">
+                    <a href="https://www.youtube.com" class="text-decoration-none">
                         <img src="img/youtube.png" />
                     </a>
                 </div>
-                <div class="col-md-8 pl-4">
+                <div class="col-md-8">
                     <h5>Contacts</h5>
                     <ul class="list-unstyled text-small">
                         <li class="text-muted font-weight-bold">SIA OnlineDrumTool</li>
@@ -59,20 +78,20 @@
                     </ul>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <nav class="navbar">
-                <div class="form-inline">
-                    <a class="text-white font-weight-bold"> © All rights reserved 2010-2019</a>
-                </div>
-                <nav class="my-2 my-md-0 mr-md-1 font-weight-bold">
-                    <a class="p-2 text-white" href="index.html">Home</a>
-                    <a class="p-2 text-white" href="about.html">About</a>
-                    <a class="p-2 text-white" href="rudiments.html">Rudiments</a>
-                    <a class="p-2 text-white" href="video.html">Video</a>
-                    <a class="p-2 text-white" href="contact.html">Contact us</a>
+            <div class="row">
+                <nav class="navbar">
+                    <div class="form-inline">
+                        <a class="text-white"> © All rights reserved 2010-2019</a>
+                    </div>
+                    <nav class="my-2 my-md-0 mr-md-1">
+                        <a class="p-2 text-white" href="index.html">Home</a>
+                        <a class="p-2 text-white" href="about.html">About</a>
+                        <a class="p-2 text-white" href="rudiments.html">Rudiments</a>
+                        <a class="p-2 text-white" href="video.html">Video</a>
+                        <a class="p-2 text-white" href="contact.html">Contact us</a>
+                    </nav>
                 </nav>
-            </nav>
+            </div>
         </div>
     </footer>
 </body>
