@@ -34,3 +34,6 @@ body {
 .header {
   background-color: rgb(182, 187, 202) !important;
 }
+.card-deck-footer .card-footer {
+  background-color: white;
+}
